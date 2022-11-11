@@ -1,5 +1,14 @@
+@use 'sass:math';
+
 @mixin crear-flexbox($justify) {
     display: flex;
     align-items: center;
     justify-content: $justify;
+}
+
+@function pixeles-rem($pixeles) {
+    // 32/16 = 2 *1rem = 2 rem
+    $rem: math.div($pixeles, 16) * 1 rem;
+
+    @return $rem;
 }
