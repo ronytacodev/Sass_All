@@ -3,3 +3,15 @@
 .nav {
     background-color: variables.$color;
 }
+
+.nav {
+    background-color: steelblue;
+
+    ul {
+        color: #000;
+
+        li {
+            color: #fff;
+        }
+    }
+}

@@ -11,4 +11,14 @@ body {
   background-color: crimson;
 }
 
+.nav {
+  background-color: steelblue;
+}
+.nav ul {
+  color: #000;
+}
+.nav ul li {
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
