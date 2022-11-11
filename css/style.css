@@ -83,6 +83,7 @@ body {
 
 .circle-5 {
   animation-name: animacion5;
+  animation-direction: alternate-reverse;
 }
 @keyframes animacion5 {
   100% {

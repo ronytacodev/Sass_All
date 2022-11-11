@@ -19,5 +19,9 @@
                 transform: translate(50% * $iterador);
             }
         }
+
+        @if $iterador ==5 {
+            animation-direction: alternate-reverse;
+        }
     }
 }
