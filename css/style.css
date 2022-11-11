@@ -7,8 +7,8 @@ body {
   font-family: "Arial";
 }
 
-.nav {
-  background-color: crimson;
+:root {
+  --primary: crimson;
 }
 
 .nav {
@@ -28,6 +28,11 @@ body {
 }
 .nav__item--active {
   text-decoration: underline;
+}
+@media (min-width: 764px) {
+  .nav__container {
+    justify-content: flex-end;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,9 @@
 @use 'variables';
 
-.nav {
-    background-color: variables.$color;
+$primary: crimson;
+
+:root {
+    --primary: #{$primary};
 }
 
 .nav {
@@ -30,5 +32,9 @@
         // }
     }
 
-    @media (min-width:764px) {}
+    @media (min-width:764px) {
+        &__container {
+            justify-content: flex-end;
+        }
+    }
 }
