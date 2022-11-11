@@ -14,11 +14,20 @@ body {
 .nav {
   background-color: steelblue;
 }
-.nav ul {
-  color: #000;
+.nav__container {
+  width: 90%;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.nav ul li {
+.nav__item {
   color: #fff;
+  text-decoration: none;
+}
+.nav__item--active {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
